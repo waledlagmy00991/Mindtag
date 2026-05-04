@@ -39,11 +39,11 @@ Mindtag/
 │   ├── 📁 Mindtag.API/                # Presentation: API Controllers, Middleware, SignalR Hubs
 │   ├── 📁 Mindtag.Core/               # Domain: Entities, Enums, Interfaces, DTOs
 │   └── 📁 Mindtag.Infrastructure/     # Persistence: EF Core DbContext, Repositories, Services, Jobs
-├── 📁 frontend/                       # React Native Mobile Application
-│   ├── 📁 app/                        # Expo Router Screens & Navigation
-│   ├── 📁 components/                 # Reusable UI Components
-│   ├── 📁 constants/                  # Theme Colors & Typography
-│   └── 📁 hooks/                      # Custom React Hooks for API calls
+├── 📁 frontend/                       # Client Applications
+│   ├── 📁 mobile-student/             # React Native (Expo) Mobile App for Students
+│   │   └── 📁 src/                    # Screens, Components, Navigation
+│   └── 📁 web-doctor/                 # React.js (Vite) Web Dashboard for Doctors/Admins
+│       └── 📁 src/                    # Pages, Components, API Hooks
 ├── 📄 .gitignore                      # Git ignored files
 └── 📄 README.md                       # Project documentation
 ```
