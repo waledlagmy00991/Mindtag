@@ -1,7 +1,7 @@
 # 🎓 Mindtag - Real-Time University Attendance System
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400?text=Mindtag+Cover+Image" alt="Mindtag Cover" />
+  <img src="./Mindtag.png" alt="Mindtag Cover" width="800" />
   <p><em>A secure, automated attendance tracking platform using dynamic QR codes and geo-fencing for academic integrity.</em></p>
 </div>
 
