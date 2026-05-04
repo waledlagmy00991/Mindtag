@@ -30,12 +30,23 @@
 *   **React Native / Expo:** Cross-platform mobile application for students.
 *   **React.js / Vite:** Web dashboard for professors and administrators.
 
-## 🏗️ System Architecture
-The backend follows a **Clean Architecture** pattern, separating concerns into distinct layers:
-1.  **API Layer:** Controllers and endpoints.
-2.  **Service Layer:** Core business logic and validations.
-3.  **Repository Layer:** Database abstraction and data access.
-4.  **Core / Domain:** Entities, DTOs, and Interfaces.
+## 🏗️ System Architecture & Structure
+The project follows a **Clean Architecture** pattern, ensuring scalability and maintainability by separating concerns into distinct layers.
+
+```text
+Mindtag/
+├── 📁 backend/                        # .NET 8 ASP.NET Core Backend
+│   ├── 📁 Mindtag.API/                # Presentation: API Controllers, Middleware, SignalR Hubs
+│   ├── 📁 Mindtag.Core/               # Domain: Entities, Enums, Interfaces, DTOs
+│   └── 📁 Mindtag.Infrastructure/     # Persistence: EF Core DbContext, Repositories, Services, Jobs
+├── 📁 frontend/                       # React Native Mobile Application
+│   ├── 📁 app/                        # Expo Router Screens & Navigation
+│   ├── 📁 components/                 # Reusable UI Components
+│   ├── 📁 constants/                  # Theme Colors & Typography
+│   └── 📁 hooks/                      # Custom React Hooks for API calls
+├── 📄 .gitignore                      # Git ignored files
+└── 📄 README.md                       # Project documentation
+```
 
 ## 🚀 Getting Started
 
